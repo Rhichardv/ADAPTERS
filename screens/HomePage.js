@@ -15,7 +15,7 @@ export default function HomePage() {
       <Header title="Tareas programadas:" />
       {tasks.length === 0 ? (
         <View style={styles.emptyContainer}>
-          <Text style={styles.emptyText}>No tienes tareas aún en la lissta</Text>
+          <Text style={styles.emptyText}>Aun no tienes tareas, Deseas agregar una?</Text>
         </View>
       ) : (
         <FlatList
