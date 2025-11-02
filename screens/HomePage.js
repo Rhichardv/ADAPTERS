@@ -12,7 +12,7 @@ export default function HomePage() {
 
   return (
     <View style={styles.container}>
-      <Header title="Tareas programadas:" />
+      <Header title="Tareas pendientes:" />
       {tasks.length === 0 ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>Aun no tienes tareas, Deseas agregar una?</Text>
