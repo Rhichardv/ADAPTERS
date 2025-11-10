@@ -10,6 +10,6 @@ export default function Header({ title }) {
 }
 
 const styles = StyleSheet.create({
-  header: { padding: 15, backgroundColor: "#13b858ff", borderRadius: 12 },
+  header: { padding: 15, backgroundColor: "#13b858ff", borderRadius: 12 },  // en home tareas pendientes: 5
   title: { color: "#fff", fontSize: 20, fontWeight: "bold", textAlign: "center" },
 });

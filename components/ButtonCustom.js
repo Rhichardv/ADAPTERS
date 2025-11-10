@@ -11,7 +11,7 @@ export default function ButtonCustom({ title, onPress }) {
 
 const styles = StyleSheet.create({
   btn: {
-    backgroundColor: "#13b858ff",
+    backgroundColor: "#13b858ff", //creo el boton de home de agregar tarea
     padding: 12,
     borderRadius: 10,
     marginTop: 20,
